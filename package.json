@@ -1,11 +1,16 @@
 {
   "name": "amazon-api",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "src/product.js",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "dependencies": {
     "spidering": "^0.0.13",
-    "eslint-config-node-script-js": "^1.0.4",
     "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "eslint-config-node-script-js": "^1.0.4"
   }
 }
