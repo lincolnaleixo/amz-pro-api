@@ -7,10 +7,14 @@
     "node": ">=12"
   },
   "dependencies": {
-    "spidering": "^0.0.13",
-    "moment": "^2.24.0"
+    "axios": "^0.19.2",
+    "cawer": "^1.0.2",
+    "cheerio": "^1.0.0-rc.3",
+    "moment": "^2.24.0",
+    "random": "^2.1.1",
+    "spidering": "latest"
   },
   "devDependencies": {
-    "eslint-config-node-script-js": "^1.0.4"
+    "eslint-config-node-script-js": "latest"
   }
 }
