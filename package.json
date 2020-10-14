@@ -1,5 +1,5 @@
 {
-  "name": "amazon-api",
+  "name": "amaz-pro-api",
   "version": "1.0.2",
   "main": "src/product.js",
   "license": "MIT",
@@ -7,14 +7,14 @@
     "node": ">=12"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "cawer": "^1.0.2",
-    "cheerio": "^1.0.0-rc.3",
-    "moment": "^2.24.0",
-    "random": "^2.1.1",
-    "spidering": "latest"
+    "axios": "^0.20.0",
+    "cawer": "^1.0.7",
+    "jsonfile": "^6.0.1",
+    "logering": "^0.2.1",
+    "moment-timezone": "^0.5.31",
+    "url-join": "^4.0.1"
   },
   "devDependencies": {
-    "eslint-config-node-script-js": "latest"
+    "eslint-config-node-script-js": "1.0.19"
   }
 }
